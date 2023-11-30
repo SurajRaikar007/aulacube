@@ -5,7 +5,6 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-.local__bootstrap {
   /* rtl:raw:
   [type="tel"],
   [type="url"],
@@ -26,7 +25,7 @@
   } */
   /* rtl:begin:remove */
   /* rtl:end:remove */
-}
+
 .local__bootstrap :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -314,9 +313,7 @@ a > .local__bootstrap code {
 .local__bootstrap button,
 .local__bootstrap [type=button],
 .local__bootstrap [type=reset],
-.local__bootstrap [type=submit] {
-  -webkit-appearance: button;
-}
+.local__bootstrap [type=submit] ,
 .local__bootstrap button:not(:disabled),
 .local__bootstrap [type=button]:not(:disabled),
 .local__bootstrap [type=reset]:not(:disabled),
@@ -366,7 +363,6 @@ a > .local__bootstrap code {
 }
 .local__bootstrap [type=search] {
   outline-offset: -2px;
-  -webkit-appearance: textfield;
 }
 .local__bootstrap ::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -2029,7 +2025,6 @@ a > .local__bootstrap code {
   background-size: contain;
   border: 1px solid rgba(0, 0, 0, 0.25);
   appearance: none;
-  color-adjust: exact;
 }
 .local__bootstrap .form-check-input[type=checkbox] {
   border-radius: 0.25em;
